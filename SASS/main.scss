@@ -2,6 +2,8 @@
 @import "mixin";
 @import "var";
 
+//Partials feature is nothing but creating mixin file and variable file seprately with mentioning underscore at start 
+// _mixin.scss and _var.scss
 //below code contains #nesting feature, #mixins using and #var using
 .container {
   @include flexcode;
