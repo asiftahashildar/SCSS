@@ -1,0 +1,13 @@
+//mixins are created
+@mixin flexcode {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin headingcode ($setcolor) {  //mixin receiving the $setcolor parameter
+    color: $setcolor;
+    box-shadow: 5px;
+    font-size: $textSize;
+}

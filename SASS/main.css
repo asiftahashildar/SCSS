@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: aquamarine;
+}
+.container h1 {
+  color: red;
+  box-shadow: 5px;
+  font-size: 50px;
+}
+.container h1:hover {
+  color: yellow;
+}
+.container h3 {
+  color: green;
+  box-shadow: 5px;
+  font-size: 50px;
+}
+.container h3::after {
+  content: " and SASS(Synthetically Awesome StyleSheet)";
+  color: blue;
+}
+.container h3::before {
+  content: " ====> ";
+  color: red;
+}
+.container h4 {
+  color: brown;
+  font-size: 50px;
+}
+.container p {
+  font-size: 30px;
+}
+.container ul li {
+  font-size: 30px;
+  color: crimson;
+}/*# sourceMappingURL=main.css.map */
