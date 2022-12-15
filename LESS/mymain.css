@@ -1,0 +1,19 @@
+.commoncode {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: cadetblue;
+  color: red;
+}
+.container h1,
+.container h3,
+.container h4 {
+  color: brown;
+}

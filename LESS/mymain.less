@@ -1,0 +1,22 @@
+@color : red;
+@heading-color : brown;
+
+.commoncode {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    .commoncode;
+    background-color: cadetblue;
+    color: @color;
+    h1,h3,h4 {
+        color: @heading-color;
+    }
+}
+
+//extension used is "Easy Less" 
+// which creates the .css file of .less file
+// In HTML code we need to link .css file only
